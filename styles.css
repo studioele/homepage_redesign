@@ -1,0 +1,181 @@
+html {
+  scroll-behavior: smooth;
+ }
+
+body {
+  max-width: 1980px;
+  margin: 10px 10px 10px 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+/* FONTS */
+
+@font-face {
+  font-family: "ObjectSans";
+  src: url("fonts/PPObjectSans-Regular.woff") format('woff');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "ObjectSans";
+  src: url("fonts/PPObjectSans-Thin.woff") format('woff');
+  font-weight: 100;
+}
+
+
+
+
+/* MAIN_LAYOUT */
+
+/* HEADER */
+.header {
+  height: 45px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* CONTENT */
+.content {
+  margin-top: 0px;
+}
+
+
+
+/* NAVIGATION */
+.navigationbar {
+  margin: 0px;
+  padding: 5px;
+  bottom: 0px;
+  height: 75px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* FOOTER */
+.foot {
+  margin: 0px;
+  padding: 0px 25px 0px 25px;
+}
+
+
+
+/* TEXT */
+
+.p {
+  font-family: 'ObjectSans';
+  font-size: 5rem;
+}
+
+.p_captation {
+  background-color: white;
+}
+
+.text-header-l {
+  font-family: 'ObjectSans';
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.text-header-m {
+  font-family: 'ObjectSans';
+  font-weight: 100;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.infoblock {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.85rem;
+  text-align: justify;
+}
+
+.infoblock_bold {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.85rem;
+  text-align: justify;
+}
+
+.text-footer {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 0.75rem;
+  color: grey;
+}
+
+.logo {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.85rem;
+}
+
+
+/* LINK STYLING */
+
+.link  {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link_active  {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+
+.link_bold {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+/* CAROUSEL */
+
+.carousel-caption {
+  /* text-align: right; */
+  position: relative;
+  left: 0%;
+  top: -50px;
+  height: 2rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+  font-style: italic;
+  }
+
+
+
+ /* DEVELOP BACKGROUNDS */
+  .bkgrd_1  {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .bkgrd_2  {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .bkgrd_3  {
+    background-color: rgb(255, 255, 255);
+  }
+
+  /* END DEVELOP BACKGROUNDS */
