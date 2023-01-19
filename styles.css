@@ -3,8 +3,11 @@ html {
  }
 
 body {
-  max-width: 1980px;
-  margin: 10px 10px 10px 10px;
+  /* max-width: 1980px; */
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+
   background-color: rgb(255, 255, 255);
 }
 
@@ -18,10 +21,15 @@ body {
 }
 
 @font-face {
-  font-family: "ObjectSans";
+  font-family: "ObjectSans-Thin";
   src: url("fonts/PPObjectSans-Thin.woff") format('woff');
-  font-weight: 100;
 }
+
+@font-face {
+  font-family: "ObjectSans-Bold";
+  src: url("fonts/PPObjectSans-Bold.woff") format('woff');
+}
+
 
 
 
@@ -70,16 +78,16 @@ body {
 }
 
 .text-header-l {
-  font-family: 'ObjectSans';
+  font-family: 'ObjectSans-Bold';
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: black;
 }
 
 .text-header-m {
-  font-family: 'ObjectSans';
+  font-family: 'ObjectSans-Thin';
   font-weight: 100;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: black;
 }
 
