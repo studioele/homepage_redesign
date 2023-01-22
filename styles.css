@@ -78,16 +78,16 @@ body {
 }
 
 .text-header-l {
-  font-family: 'ObjectSans-Bold';
+  font-family: 'ObjectSans';
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   color: black;
 }
 
 .text-header-m {
   font-family: 'ObjectSans-Thin';
   font-weight: 100;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   color: black;
 }
 
@@ -114,7 +114,9 @@ body {
 
 .logo {
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.85rem;
+  font-size: 1.6rem;
+  text-align: right;
+  color: darkgrey;
 }
 
 
