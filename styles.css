@@ -80,14 +80,14 @@ body {
 .text-header-l {
   font-family: 'ObjectSans';
   font-weight: 300;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   color: black;
 }
 
 .text-header-m {
   font-family: 'ObjectSans-Thin';
   font-weight: 100;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   color: black;
 }
 
@@ -116,7 +116,6 @@ body {
   font-family: 'Libre Baskerville', serif;
   font-size: 1.6rem;
   text-align: right;
-  color: darkgrey;
 }
 
 
@@ -131,10 +130,10 @@ body {
 }
 
 .link_active  {
-  font-family: 'Work Sans', sans-serif;
+  /* font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   color: black;
-  text-align: center;
+  text-align: center; */
   text-decoration: underline;
 }
 
